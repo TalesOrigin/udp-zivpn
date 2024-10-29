@@ -1,6 +1,11 @@
 #!/bin/bash
 # Zivpn UDP Module installer
 # Creator Zahid Islam
+RED='\033[0;31m'
+GREEN='\033[0;32m'
+YELLOW='\033[0;33m'
+plain='\033[0m'
+NC='\033[0m' # No Color
 
 echo -e "Updating server"
 sudo apt-get update && apt-get upgrade -y
