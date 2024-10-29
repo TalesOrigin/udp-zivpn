@@ -64,4 +64,16 @@ iptables -t nat -A PREROUTING -i $(ip -4 route ls|grep default|grep -Po '(?<=dev
 ufw allow 6000:19999/udp
 ufw allow 5667/udp
 rm zi.* 1> /dev/null 2> /dev/null
+echo "+------------------------------------------------------------------+"
+echo "|     ___   ___          ________          ___   ___               |"
+echo "|    |\  \ |\  \        |\   __  \        |\  \ |\  \              |"
+echo "|    \ \  \|_\  \       \ \  \|\  \       \ \  \|_\  \             |"
+echo "|     \ \______  \       \ \  \/\  \       \ \______  \            |"
+echo "|      \|_____|\  \       \ \  \/\  \       \|_____|\  \           |"
+echo "|             \ \__\       \ \_______\             \ \__\          |"
+echo "|              \|__|        \|_______|              \|__|          |"
+echo "+------------------------------------------------------------------+"
+echo -e "| Telegram Account : ${GREEN}@nkka404 ${NC}|Telegram Channel : ${RED}t.me/premium_channel_404${NC} |"
+echo "+------------------------------------------------------------------+"
+echo ""
 echo -e "ZIVPN UDP Installed"
