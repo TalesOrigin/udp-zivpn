@@ -5,6 +5,6 @@
    "obfs":"zivpn",
    "auth": {
     "mode": "passwords", 
-    "config": ["zi-channel-404"]
+    "config": ["zi"]
   }
 }
