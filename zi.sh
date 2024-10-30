@@ -50,7 +50,7 @@ if [ -n "$input_config" ]; then
         config+=(${config[0]})
     fi
 else
-    config=("zi-channel-404")
+    config=("zi")
 fi
 
 new_config_str="\"config\": [$(printf "\"%s\"," "${config[@]}" | sed 's/,$//')]"
