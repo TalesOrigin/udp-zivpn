@@ -14,7 +14,7 @@ systemctl stop zivpn.service 1> /dev/null 2> /dev/null
 
 echo -e "Installing required packages"
 # Install necessary packages
-sudo dnf install wget openssl -y
+sudo dnf install wget openssl iptables  iptables-services -y
 
 echo -e "Downloading UDP Service"
 wget https://github.com/nyeinkokoaung404/udp-zivpn/releases/download/udp-zivpn_1.4.9/udp-zivpn-linux-amd64 -O /usr/local/bin/zivpn 1> /dev/null 2> /dev/null
