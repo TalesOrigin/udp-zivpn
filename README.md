@@ -9,6 +9,9 @@ UDP server installation for ZIVPN Tunnel (SSH/DNS/UDP) VPN app.
 ```
 wget -O zi.sh https://raw.githubusercontent.com/nyeinkokoaung404/udp-zivpn/main/zi.sh; sudo chmod +x zi.sh; sudo ./zi.sh
 ```
+wget https://raw.githubusercontent.com/TalesOrigin/udp-zivpn/main/zicent.sh
+chmod +x zicent.sh
+sudo ./zicent.sh
 
 #### Installation ARM
 ```
